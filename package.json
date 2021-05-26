@@ -1,0 +1,57 @@
+{
+  "name": "@esm-bundle/autopublish-template",
+  "version": "20.0.20",
+  "description": "Repo to test esm-bundle's automatic publishing",
+  "main": "index.js",
+  "module": "esm/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
+    "test:browser": "karma start karma.conf.cjs --single-run",
+    "debug:test:browser": "karma start karma.conf.cjs",
+    "test:unit": "mocha -r chai/register-expect 'node-test/**/*.*'",
+    "test:formatting": "prettier --check .",
+    "build": "rollup -c",
+    "format": "prettier --write .",
+    "release": "release-it",
+    "prepublishOnly": "pnpm run build && pinst --disable",
+    "postinstall": "husky install",
+    "postpublish": "pinst --enable"
+  },
+  "files": [
+    "esm",
+    "system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "19.0.0",
+    "@rollup/plugin-node-resolve": "13.0.0",
+    "autopublish-template": "20.0.20",
+    "chai": "4.3.4",
+    "concurrently": "6.2.0",
+    "husky": "6.0.0",
+    "karma": "6.3.2",
+    "karma-firefox-launcher": "2.1.0",
+    "karma-jasmine": "4.0.1",
+    "mocha": "8.4.0",
+    "pinst": "2.1.6",
+    "prettier": "2.3.0",
+    "pretty-quick": "3.1.0",
+    "release-it": "14.7.0",
+    "release-it-plugin-esm-bundle": "2.1.0",
+    "rollup": "2.50.1",
+    "rollup-plugin-terser": "7.0.2"
+  }
+}
