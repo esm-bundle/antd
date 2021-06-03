@@ -11,3 +11,7 @@ karma.conf.cjs
 .nvmrc
 .husky
 pnpm-lock.yaml
+.github/FUNDING.yml
+.github/workflows/build-and-test.yml
+.release-it.json
+renovate.json
