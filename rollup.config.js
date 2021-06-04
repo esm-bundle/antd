@@ -1,6 +1,7 @@
 import commonjs from "@rollup/plugin-commonjs";
 import resolve from "@rollup/plugin-node-resolve";
-// import { terser } from "rollup-plugin-terser";
+import { terser } from "rollup-plugin-terser";
+import replace from "rollup-plugin-replace";
 
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
@@ -11,8 +12,16 @@ function createConfig(format) {
       sourcemap: true,
       format,
     },
-    plugins: [commonjs(), resolve()],
-    external: ["react", "react-dom"],
+    plugins: [
+      resolve(),
+      commonjs(),
+      replace({
+        values: {
+          "process.env.NODE_ENV": JSON.stringify("development"),
+        },
+      }),
+      terser(),
+    ],
   };
 }
 
