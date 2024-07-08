@@ -51,11 +51,11 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(prettier@3.3.2)
       release-it:
-        specifier: 17.4.1
-        version: 17.4.1
+        specifier: 17.4.2
+        version: 17.4.2
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@17.4.1)
+        version: 3.0.0(release-it@17.4.2)
       rollup:
         specifier: 4.18.1
         version: 4.18.1
@@ -1650,8 +1650,8 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
 
-  release-it@17.4.1:
-    resolution: {integrity: sha512-Aa48kKx5qZRVXJ6YCnCJRg6sJiofEX7RErTLmnlFbCE7k1Kg8ayhgJovofuBhCtz3FRdsYnxBKjlh+VAMeazEA==}
+  release-it@17.4.2:
+    resolution: {integrity: sha512-s+ePzQm94DlTy1/3+MjfymY4kte1n0P8pHNkAuSPwGoQKFvQtTMG+YTGi25dYW5U+UsEayhEvaViUuc6nD2gHw==}
     engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     hasBin: true
 
@@ -2332,7 +2332,7 @@ snapshots:
 
   agent-base@7.1.0:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -2881,7 +2881,7 @@ snapshots:
     dependencies:
       basic-ftp: 5.0.3
       data-uri-to-buffer: 5.0.1
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
       fs-extra: 8.1.0
     transitivePeerDependencies:
       - supports-color
@@ -2990,7 +2990,7 @@ snapshots:
   http-proxy-agent@7.0.1:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -3010,7 +3010,7 @@ snapshots:
   https-proxy-agent@7.0.3:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -3480,7 +3480,7 @@ snapshots:
     dependencies:
       '@tootallnate/quickjs-emscripten': 0.23.0
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
       get-uri: 6.0.1
       http-proxy-agent: 7.0.1
       https-proxy-agent: 7.0.3
@@ -3570,7 +3570,7 @@ snapshots:
   proxy-agent@6.4.0:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
       http-proxy-agent: 7.0.1
       https-proxy-agent: 7.0.3
       lru-cache: 7.18.3
@@ -3638,11 +3638,11 @@ snapshots:
     dependencies:
       rc: 1.2.8
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@17.4.1):
+  release-it-plugin-esm-bundle@3.0.0(release-it@17.4.2):
     dependencies:
-      release-it: 17.4.1
+      release-it: 17.4.2
 
-  release-it@17.4.1:
+  release-it@17.4.2:
     dependencies:
       '@iarna/toml': 2.2.5
       '@octokit/rest': 20.1.1
@@ -3819,7 +3819,7 @@ snapshots:
   socks-proxy-agent@8.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.4
+      debug: 4.3.5(supports-color@8.1.1)
       socks: 2.7.1
     transitivePeerDependencies:
       - supports-color
