@@ -24,8 +24,8 @@ importers:
         specifier: 5.1.1
         version: 5.1.1
       concurrently:
-        specifier: 8.2.2
-        version: 8.2.2
+        specifier: 9.0.0
+        version: 9.0.0
       husky:
         specifier: 9.1.6
         version: 9.1.6
@@ -70,10 +70,6 @@ packages:
 
   '@babel/highlight@7.12.13':
     resolution: {integrity: sha512-kocDQvIbgMKlWxXe9fof3TQ+gkIPOUSEYhJjqUjvKMez3krV7vbzYCDq39Oj11UAVK7JqPVGQPlgE85dPNlQww==}
-
-  '@babel/runtime@7.22.5':
-    resolution: {integrity: sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==}
-    engines: {node: '>=6.9.0'}
 
   '@colors/colors@1.5.0':
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -580,9 +576,9 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  concurrently@8.2.2:
-    resolution: {integrity: sha512-1dP4gpXFhei8IOtlXRE/T/4H88ElHgTiUzh71YUmtjTEHMSRS2Z/fgOxHSxxusGHogsRfxNq1vyAwxSC+EVyDg==}
-    engines: {node: ^14.13.0 || >=16.0.0}
+  concurrently@9.0.0:
+    resolution: {integrity: sha512-iAxbsDeUkn8E/4+QalT7T3WvlyTfmsoez+19lbbcsxZdOEMfBukd8LA30KYez2UR5xkKFzbcqXIZy5RisCbaxw==}
+    engines: {node: '>=18'}
     hasBin: true
 
   config-chain@1.1.13:
@@ -635,10 +631,6 @@ packages:
   data-uri-to-buffer@5.0.1:
     resolution: {integrity: sha512-a9l6T1qqDogvvnw0nKlfZzqsyikEBZBClF39V3TFoKhDtGBqHu2HkuomJc02j5zft8zrUaXEuoicLeW54RkzPg==}
     engines: {node: '>= 14'}
-
-  date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
-    engines: {node: '>=0.11'}
 
   date-format@4.0.3:
     resolution: {integrity: sha512-7P3FyqDcfeznLZp2b+OMitV9Sz2lUnsT87WaTat9nVwqsBkTzPG3lPLNwW3en6F4pHUiWzr6vb8CLhjdK9bcxQ==}
@@ -1629,9 +1621,6 @@ packages:
     resolution: {integrity: sha512-HFM8rkZ+i3zrV+4LQjwQ0W+ez98pApMGM3HUrN04j3CqzPOzl9nmP15Y8YXNm8QHGv/eacOVEjqhmWpkRV0NAw==}
     engines: {node: '>= 0.10'}
 
-  regenerator-runtime@0.13.11:
-    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
-
   registry-auth-token@5.0.2:
     resolution: {integrity: sha512-o/3ikDxtXaA59BmZuZrJZDJv8NMDGSj+6j6XaeBmHw8eY1i1qd9+6H+LjVvQXx3HN6aRCGa1cUdJ9RaJZUugnQ==}
     engines: {node: '>=14'}
@@ -1795,9 +1784,6 @@ packages:
   source-map@0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
-
-  spawn-command@0.0.2:
-    resolution: {integrity: sha512-zC8zGoGkmc8J9ndvml8Xksr1Amk9qBujgbF0JAIWO7kXr43w0h/0GJNM/Vustixu+YE8N/MTrQ7N31FvHUACxQ==}
 
   statuses@1.5.0:
     resolution: {integrity: sha512-OpZ3zP+jT1PI7I8nemJX4AKmAX070ZkYPVWV/AaKTJl+tXCTGyVdC1a4SL8RUQYEwk/f34ZX8UTykN68FwrqAA==}
@@ -2072,10 +2058,6 @@ snapshots:
       '@babel/helper-validator-identifier': 7.12.11
       chalk: 2.4.2
       js-tokens: 4.0.0
-
-  '@babel/runtime@7.22.5':
-    dependencies:
-      regenerator-runtime: 0.13.11
 
   '@colors/colors@1.5.0': {}
 
@@ -2554,14 +2536,12 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  concurrently@8.2.2:
+  concurrently@9.0.0:
     dependencies:
       chalk: 4.1.2
-      date-fns: 2.30.0
       lodash: 4.17.21
       rxjs: 7.8.1
       shell-quote: 1.8.1
-      spawn-command: 0.0.2
       supports-color: 8.1.1
       tree-kill: 1.2.2
       yargs: 17.7.2
@@ -2619,10 +2599,6 @@ snapshots:
   data-uri-to-buffer@4.0.0: {}
 
   data-uri-to-buffer@5.0.1: {}
-
-  date-fns@2.30.0:
-    dependencies:
-      '@babel/runtime': 7.22.5
 
   date-format@4.0.3: {}
 
@@ -3610,8 +3586,6 @@ snapshots:
     dependencies:
       resolve: 1.22.1
 
-  regenerator-runtime@0.13.11: {}
-
   registry-auth-token@5.0.2:
     dependencies:
       '@pnpm/npm-conf': 2.2.2
@@ -3817,8 +3791,6 @@ snapshots:
       source-map: 0.6.1
 
   source-map@0.6.1: {}
-
-  spawn-command@0.0.2: {}
 
   statuses@1.5.0: {}
 
