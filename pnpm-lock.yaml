@@ -51,11 +51,11 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(prettier@3.3.3)
       release-it:
-        specifier: 17.9.0
-        version: 17.9.0
+        specifier: 17.10.0
+        version: 17.10.0
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@17.9.0)
+        version: 3.0.0(release-it@17.10.0)
       rollup:
         specifier: 4.24.0
         version: 4.24.0
@@ -1494,8 +1494,8 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
 
-  release-it@17.9.0:
-    resolution: {integrity: sha512-KAZqvYcfYI/Rva8yr7vzVruM3mN8kuUR1WeQfOtGrc4ub7bGYf8eN91NOXC73LJE1uNpVlppF5xB8KOvKtQosg==}
+  release-it@17.10.0:
+    resolution: {integrity: sha512-00cXYEl7RFD5NnjXpwaH9JFjpwe8w3NcfUd4XPxrKQkszp1xppPo42zK9eSbxStKyPA5CVk2KmKPDPDiAKVJTA==}
     engines: {node: ^18.18.0 || ^20.9.0 || ^22.0.0}
     hasBin: true
 
@@ -3293,11 +3293,11 @@ snapshots:
     dependencies:
       rc: 1.2.8
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@17.9.0):
+  release-it-plugin-esm-bundle@3.0.0(release-it@17.10.0):
     dependencies:
-      release-it: 17.9.0
+      release-it: 17.10.0
 
-  release-it@17.9.0:
+  release-it@17.10.0:
     dependencies:
       '@iarna/toml': 2.2.5
       '@octokit/rest': 20.1.1
