@@ -51,11 +51,11 @@ importers:
         specifier: 4.0.0
         version: 4.0.0(prettier@3.4.2)
       release-it:
-        specifier: 18.1.1
-        version: 18.1.1(@types/node@14.14.31)
+        specifier: 18.1.2
+        version: 18.1.2(@types/node@14.14.31)
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@18.1.1(@types/node@14.14.31))
+        version: 3.0.0(release-it@18.1.2(@types/node@14.14.31))
       rollup:
         specifier: 4.32.1
         version: 4.32.1
@@ -1629,8 +1629,8 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
 
-  release-it@18.1.1:
-    resolution: {integrity: sha512-rC/iVKri7U/Kp/Myujmsf7HG2gPq8My/LBVB72TbZZYKD14fmgDZC4Eyn8DD7Yh2h/G/YCCsRe1QQPrjXj9Mzg==}
+  release-it@18.1.2:
+    resolution: {integrity: sha512-HOVRcicehCgoCsPFOu0iCBlEC8GDOoKS5s6ICkWmqomGEoZtRQ88D3RCsI5MciSU8vAQU+aWZW2z57NQNNb74w==}
     engines: {node: ^20.9.0 || >=22.0.0}
     hasBin: true
 
@@ -1886,8 +1886,8 @@ packages:
   ua-parser-js@0.7.30:
     resolution: {integrity: sha512-uXEtSresNUlXQ1QL4/3dQORcGv7+J2ookOG2ybA/ga9+HYEXueT2o+8dUJQkpedsyTyCJ6jCCirRcKtdtx1kbg==}
 
-  undici@6.21.0:
-    resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
+  undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
 
   unicorn-magic@0.1.0:
@@ -3585,11 +3585,11 @@ snapshots:
     dependencies:
       rc: 1.2.8
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@18.1.1(@types/node@14.14.31)):
+  release-it-plugin-esm-bundle@3.0.0(release-it@18.1.2(@types/node@14.14.31)):
     dependencies:
-      release-it: 18.1.1(@types/node@14.14.31)
+      release-it: 18.1.2(@types/node@14.14.31)
 
-  release-it@18.1.1(@types/node@14.14.31):
+  release-it@18.1.2(@types/node@14.14.31):
     dependencies:
       '@iarna/toml': 2.2.5
       '@octokit/rest': 21.0.2
@@ -3611,7 +3611,7 @@ snapshots:
       proxy-agent: 6.5.0
       semver: 7.6.3
       shelljs: 0.8.5
-      undici: 6.21.0
+      undici: 6.21.1
       update-notifier: 7.3.1
       url-join: 5.0.0
       wildcard-match: 5.1.4
@@ -3875,7 +3875,7 @@ snapshots:
 
   ua-parser-js@0.7.30: {}
 
-  undici@6.21.0: {}
+  undici@6.21.1: {}
 
   unicorn-magic@0.1.0: {}
 
