@@ -51,7 +51,7 @@
     "pretty-quick": "4.2.2",
     "release-it": "19.0.5",
     "release-it-plugin-esm-bundle": "3.0.0",
-    "rollup": "4.51.0",
+    "rollup": "4.52.0",
     "@rollup/plugin-terser": "0.4.4"
   }
 }
