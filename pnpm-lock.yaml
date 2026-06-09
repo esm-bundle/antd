@@ -31,13 +31,13 @@ importers:
         version: 9.1.7
       karma:
         specifier: 6.4.4
-        version: 6.4.4
+        version: 6.4.4(supports-color@8.1.1)
       karma-firefox-launcher:
         specifier: 2.1.3
         version: 2.1.3
       karma-jasmine:
         specifier: 5.1.0
-        version: 5.1.0(karma@6.4.4)
+        version: 5.1.0(karma@6.4.4(supports-color@8.1.1))
       mocha:
         specifier: 11.7.6
         version: 11.7.6
@@ -45,11 +45,11 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       prettier:
-        specifier: 3.8.3
-        version: 3.8.3
+        specifier: 3.8.4
+        version: 3.8.4
       pretty-quick:
         specifier: 4.2.2
-        version: 4.2.2(prettier@3.8.3)
+        version: 4.2.2(prettier@3.8.4)
       release-it:
         specifier: 20.2.0
         version: 20.2.0
@@ -1422,8 +1422,8 @@ packages:
     resolution: {integrity: sha512-ZlsFlG7MtSFCoc5xreOvBAozCJ6Pf06opgJjh9ONEv418xpZSAzNjstD36C6+JwOnfSqOW/9uDkqKjezTdxZhw==}
     engines: {node: '>=20'}
 
-  prettier@3.8.3:
-    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
+  prettier@3.8.4:
+    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2442,7 +2442,7 @@ snapshots:
 
   engine.io-parser@5.2.2: {}
 
-  engine.io@6.5.4:
+  engine.io@6.5.4(supports-color@8.1.1):
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.12
@@ -2767,12 +2767,12 @@ snapshots:
       is-wsl: 2.2.0
       which: 3.0.1
 
-  karma-jasmine@5.1.0(karma@6.4.4):
+  karma-jasmine@5.1.0(karma@6.4.4(supports-color@8.1.1)):
     dependencies:
       jasmine-core: 4.1.0
-      karma: 6.4.4
+      karma: 6.4.4(supports-color@8.1.1)
 
-  karma@6.4.4:
+  karma@6.4.4(supports-color@8.1.1):
     dependencies:
       '@colors/colors': 1.5.0
       body-parser: 1.19.0
@@ -2786,14 +2786,14 @@ snapshots:
       http-proxy: 1.18.1
       isbinaryfile: 4.0.8
       lodash: 4.17.21
-      log4js: 6.4.1
+      log4js: 6.4.1(supports-color@8.1.1)
       mime: 2.5.2
       minimatch: 3.0.4
       mkdirp: 0.5.5
       qjobs: 1.2.0
       range-parser: 1.2.1
       rimraf: 3.0.2
-      socket.io: 4.7.4
+      socket.io: 4.7.4(supports-color@8.1.1)
       source-map: 0.6.1
       tmp: 0.2.1
       ua-parser-js: 0.7.30
@@ -2832,13 +2832,13 @@ snapshots:
       is-unicode-supported: 2.1.0
       yoctocolors: 2.1.2
 
-  log4js@6.4.1:
+  log4js@6.4.1(supports-color@8.1.1):
     dependencies:
       date-format: 4.0.3
       debug: 4.3.5(supports-color@8.1.1)
       flatted: 3.2.5
       rfdc: 1.3.0
-      streamroller: 3.0.2
+      streamroller: 3.0.2(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -3058,16 +3058,16 @@ snapshots:
 
   powershell-utils@0.2.0: {}
 
-  prettier@3.8.3: {}
+  prettier@3.8.4: {}
 
-  pretty-quick@4.2.2(prettier@3.8.3):
+  pretty-quick@4.2.2(prettier@3.8.4):
     dependencies:
       '@pkgr/core': 0.2.7
       ignore: 7.0.5
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.2
-      prettier: 3.8.3
+      prettier: 3.8.4
       tinyexec: 0.3.2
       tslib: 2.8.1
 
@@ -3242,7 +3242,7 @@ snapshots:
 
   smob@1.4.1: {}
 
-  socket.io-adapter@2.5.4:
+  socket.io-adapter@2.5.4(supports-color@8.1.1):
     dependencies:
       debug: 4.3.5(supports-color@8.1.1)
       ws: 8.11.0
@@ -3251,22 +3251,22 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  socket.io-parser@4.2.4:
+  socket.io-parser@4.2.4(supports-color@8.1.1):
     dependencies:
       '@socket.io/component-emitter': 3.1.0
       debug: 4.3.5(supports-color@8.1.1)
     transitivePeerDependencies:
       - supports-color
 
-  socket.io@4.7.4:
+  socket.io@4.7.4(supports-color@8.1.1):
     dependencies:
       accepts: 1.3.7
       base64id: 2.0.0
       cors: 2.8.5
       debug: 4.3.5(supports-color@8.1.1)
-      engine.io: 6.5.4
-      socket.io-adapter: 2.5.4
-      socket.io-parser: 4.2.4
+      engine.io: 6.5.4(supports-color@8.1.1)
+      socket.io-adapter: 2.5.4(supports-color@8.1.1)
+      socket.io-parser: 4.2.4(supports-color@8.1.1)
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -3296,7 +3296,7 @@ snapshots:
 
   stdin-discarder@0.3.2: {}
 
-  streamroller@3.0.2:
+  streamroller@3.0.2(supports-color@8.1.1):
     dependencies:
       date-format: 4.0.3
       debug: 4.3.5(supports-color@8.1.1)
