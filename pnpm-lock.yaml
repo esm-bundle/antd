@@ -45,17 +45,17 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       prettier:
-        specifier: 3.8.5
-        version: 3.8.5
+        specifier: 3.9.0
+        version: 3.9.0
       pretty-quick:
         specifier: 4.2.2
-        version: 4.2.2(prettier@3.8.5)
+        version: 4.2.2(prettier@3.9.0)
       release-it:
         specifier: 20.2.1
-        version: 20.2.1
+        version: 20.2.1(supports-color@8.1.1)
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@20.2.1)
+        version: 3.0.0(release-it@20.2.1(supports-color@8.1.1))
       rollup:
         specifier: 4.62.2
         version: 4.62.2
@@ -1422,8 +1422,8 @@ packages:
     resolution: {integrity: sha512-ZlsFlG7MtSFCoc5xreOvBAozCJ6Pf06opgJjh9ONEv418xpZSAzNjstD36C6+JwOnfSqOW/9uDkqKjezTdxZhw==}
     engines: {node: '>=20'}
 
-  prettier@3.8.5:
-    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
+  prettier@3.9.0:
+    resolution: {integrity: sha512-LjIqSIC5VYLzs9WedVmJ2ljNAGnU+DteIClbahu4L/DBeWjZ6iT/k1lAYyu9JUh+1xINxWadaPw/Pl63y/agAw==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2560,7 +2560,7 @@ snapshots:
 
   get-east-asian-width@1.6.0: {}
 
-  get-uri@7.0.0:
+  get-uri@7.0.0(supports-color@8.1.1):
     dependencies:
       basic-ftp: 5.3.1
       data-uri-to-buffer: 7.0.0
@@ -2989,11 +2989,11 @@ snapshots:
     dependencies:
       p-limit: 3.1.0
 
-  pac-proxy-agent@8.0.0:
+  pac-proxy-agent@8.0.0(supports-color@8.1.1):
     dependencies:
       agent-base: 8.0.0
       debug: 4.4.3(supports-color@8.1.1)
-      get-uri: 7.0.0
+      get-uri: 7.0.0(supports-color@8.1.1)
       http-proxy-agent: 8.0.0
       https-proxy-agent: 8.0.0
       pac-resolver: 8.0.0(quickjs-wasi@0.0.1)
@@ -3060,29 +3060,29 @@ snapshots:
 
   powershell-utils@0.2.0: {}
 
-  prettier@3.8.5: {}
+  prettier@3.9.0: {}
 
-  pretty-quick@4.2.2(prettier@3.8.5):
+  pretty-quick@4.2.2(prettier@3.9.0):
     dependencies:
       '@pkgr/core': 0.2.7
       ignore: 7.0.5
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.2
-      prettier: 3.8.5
+      prettier: 3.9.0
       tinyexec: 0.3.2
       tslib: 2.8.1
 
   protocols@2.0.2: {}
 
-  proxy-agent@7.0.0:
+  proxy-agent@7.0.0(supports-color@8.1.1):
     dependencies:
       agent-base: 8.0.0
       debug: 4.4.3(supports-color@8.1.1)
       http-proxy-agent: 8.0.0
       https-proxy-agent: 8.0.0
       lru-cache: 7.18.3
-      pac-proxy-agent: 8.0.0
+      pac-proxy-agent: 8.0.0(supports-color@8.1.1)
       proxy-from-env: 1.1.0
       socks-proxy-agent: 9.0.0
     transitivePeerDependencies:
@@ -3122,11 +3122,11 @@ snapshots:
 
   readdirp@5.0.0: {}
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@20.2.1):
+  release-it-plugin-esm-bundle@3.0.0(release-it@20.2.1(supports-color@8.1.1)):
     dependencies:
-      release-it: 20.2.1
+      release-it: 20.2.1(supports-color@8.1.1)
 
-  release-it@20.2.1:
+  release-it@20.2.1(supports-color@8.1.1):
     dependencies:
       '@inquirer/prompts': 8.4.2
       '@octokit/rest': 22.0.1
@@ -3144,7 +3144,7 @@ snapshots:
       open: 11.0.0
       ora: 9.3.0
       os-name: 7.0.0
-      proxy-agent: 7.0.0
+      proxy-agent: 7.0.0(supports-color@8.1.1)
       semver: 7.7.4
       tinyglobby: 0.2.15
       undici: 7.28.0
