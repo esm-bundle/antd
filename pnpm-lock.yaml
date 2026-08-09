@@ -51,11 +51,11 @@ importers:
         specifier: 4.2.2
         version: 4.2.2(prettier@3.9.6)
       release-it:
-        specifier: 21.0.1
-        version: 21.0.1(supports-color@8.1.1)
+        specifier: 21.0.2
+        version: 21.0.2(supports-color@8.1.1)
       release-it-plugin-esm-bundle:
         specifier: 3.0.0
-        version: 3.0.0(release-it@21.0.1(supports-color@8.1.1))
+        version: 3.0.0(release-it@21.0.2(supports-color@8.1.1))
       rollup:
         specifier: 4.62.4
         version: 4.62.4
@@ -1485,8 +1485,8 @@ packages:
     peerDependencies:
       release-it: '>=15.0.0'
 
-  release-it@21.0.1:
-    resolution: {integrity: sha512-xbPuv2tau3gb0Xw0NVqV3QjOhytFvbsBZDqzmURqlwtgNpFIlIbpDbuZG64ptytFOX4H/7k65bbPSLTwAL34/g==}
+  release-it@21.0.2:
+    resolution: {integrity: sha512-QwyDnWiQNB4d8Hc2b5FLMHcsKz9S2O1dMNnPB7w+0knsL5r8+qbnznDA1X7Bw5D863+Ud7eRHc71Cfth5Tlrgg==}
     engines: {node: ^22.21.0 || >=24.0.0}
     hasBin: true
 
@@ -3109,11 +3109,11 @@ snapshots:
 
   readdirp@5.0.0: {}
 
-  release-it-plugin-esm-bundle@3.0.0(release-it@21.0.1(supports-color@8.1.1)):
+  release-it-plugin-esm-bundle@3.0.0(release-it@21.0.2(supports-color@8.1.1)):
     dependencies:
-      release-it: 21.0.1(supports-color@8.1.1)
+      release-it: 21.0.2(supports-color@8.1.1)
 
-  release-it@21.0.1(supports-color@8.1.1):
+  release-it@21.0.2(supports-color@8.1.1):
     dependencies:
       '@inquirer/prompts': 8.5.2
       '@octokit/rest': 22.0.1
