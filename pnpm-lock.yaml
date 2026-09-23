@@ -45,11 +45,11 @@ importers:
         specifier: 3.0.0
         version: 3.0.0
       prettier:
-        specifier: 3.9.8
-        version: 3.9.8
+        specifier: 3.9.9
+        version: 3.9.9
       pretty-quick:
         specifier: 4.2.2
-        version: 4.2.2(prettier@3.9.8)
+        version: 4.2.2(prettier@3.9.9)
       release-it:
         specifier: 21.1.0
         version: 21.1.0(supports-color@8.1.1)
@@ -1332,8 +1332,8 @@ packages:
     resolution: {integrity: sha512-C+y9x90UElAddDZmV4qOx9W53B61PO7cIqWz2dQsWlwswuq4mr8NEwytdGKboYbQlGZ3awrkTeNvcZiZNHnQ8A==}
     engines: {node: '>=20'}
 
-  prettier@3.9.8:
-    resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
+  prettier@3.9.9:
+    resolution: {integrity: sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -2824,16 +2824,16 @@ snapshots:
 
   powershell-utils@0.2.1: {}
 
-  prettier@3.9.8: {}
+  prettier@3.9.9: {}
 
-  pretty-quick@4.2.2(prettier@3.9.8):
+  pretty-quick@4.2.2(prettier@3.9.9):
     dependencies:
       '@pkgr/core': 0.2.7
       ignore: 7.0.5
       mri: 1.2.0
       picocolors: 1.1.1
       picomatch: 4.0.2
-      prettier: 3.9.8
+      prettier: 3.9.9
       tinyexec: 0.3.2
       tslib: 2.8.1
 
