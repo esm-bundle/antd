@@ -21,8 +21,8 @@ importers:
         specifier: 20.0.20
         version: 20.0.20
       chai:
-        specifier: 6.2.2
-        version: 6.2.2
+        specifier: 6.3.0
+        version: 6.3.0
       concurrently:
         specifier: 10.0.5
         version: 10.0.5
@@ -592,8 +592,8 @@ packages:
       magicast:
         optional: true
 
-  chai@6.2.2:
-    resolution: {integrity: sha512-NUPRluOfOiTKBKvWPtSD4PhFvWCqOi0BGStNWs57X9js7XGTprSmFoz5F0tWhR4WPjNeR9jXqdC7/UpSJTnlRg==}
+  chai@6.3.0:
+    resolution: {integrity: sha512-XWAtwJ6OHO+tj0EKCs0Y2UamnyOxseZWltU4x2U2wh8g4AigdjwvtUjvLP2tqkA/avxHEtzxNaqGq/YGNwckKg==}
     engines: {node: '>=18'}
 
   chalk@5.6.2:
@@ -2109,7 +2109,7 @@ snapshots:
       pkg-types: 2.3.1
       rc9: 3.0.1
 
-  chai@6.2.2: {}
+  chai@6.3.0: {}
 
   chalk@5.6.2: {}
 
