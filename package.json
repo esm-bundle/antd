@@ -52,6 +52,6 @@
     "release-it": "21.1.1",
     "release-it-plugin-esm-bundle": "3.0.0",
     "rollup": "4.64.12",
-    "@rollup/plugin-terser": "1.0.1"
+    "@rollup/plugin-terser": "1.0.2"
   }
 }
