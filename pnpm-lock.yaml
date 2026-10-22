@@ -15,8 +15,8 @@ importers:
         specifier: 16.0.3
         version: 16.0.3(rollup@4.64.12)
       '@rollup/plugin-terser':
-        specifier: 1.0.1
-        version: 1.0.1(rollup@4.64.12)
+        specifier: 1.0.2
+        version: 1.0.2(rollup@4.64.12)
       autopublish-template:
         specifier: 20.0.20
         version: 20.0.20
@@ -306,8 +306,8 @@ packages:
       rollup:
         optional: true
 
-  '@rollup/plugin-terser@1.0.1':
-    resolution: {integrity: sha512-8/UVzuKqkcP1YydBTd8sToJtc5ukOgahl7iIT/xYUPP3hK3dC29BnMfUVQB+wWCl2EpQHVFhkrge6DLN9jjOMg==}
+  '@rollup/plugin-terser@1.0.2':
+    resolution: {integrity: sha512-+UihHnuLnQDQ/9wog7ym+7oawCXkjTIo0WwkK7s//0mkktTN0VhYk6fGVxH+NtGzW064w5RCGgreMDxRVhHCzw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
@@ -491,8 +491,8 @@ packages:
     resolution: {integrity: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==}
     engines: {node: '>= 0.6'}
 
-  acorn@8.11.3:
-    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
+  acorn@8.19.0:
+    resolution: {integrity: sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1538,8 +1538,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  terser@5.29.2:
-    resolution: {integrity: sha512-ZiGkhUBIM+7LwkNjXYJq8svgkd+QK3UUr0wJqY4MieaezBSAIPgbSPZyIx0idM6XWK5CMzSWa8MJIzmRcB8Caw==}
+  terser@5.51.2:
+    resolution: {integrity: sha512-bWnjSNscmuI+GJze6ZupnHP8G/cTcsJF+bXCeQknk2SHQsgbNJnLrqiH9jZ2W4STPVXH2mDKKRX3iwPhc9Cn/Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1891,11 +1891,11 @@ snapshots:
     optionalDependencies:
       rollup: 4.64.12
 
-  '@rollup/plugin-terser@1.0.1(rollup@4.64.12)':
+  '@rollup/plugin-terser@1.0.2(rollup@4.64.12)':
     dependencies:
       serialize-javascript: 7.1.1
       smob: 1.4.1
-      terser: 5.29.2
+      terser: 5.51.2
     optionalDependencies:
       rollup: 4.64.12
 
@@ -2005,7 +2005,7 @@ snapshots:
       mime-types: 2.1.35
       negotiator: 0.6.2
 
-  acorn@8.11.3: {}
+  acorn@8.19.0: {}
 
   agent-base@9.0.0: {}
 
@@ -3079,10 +3079,10 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  terser@5.29.2:
+  terser@5.51.2:
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.11.3
+      acorn: 8.19.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
